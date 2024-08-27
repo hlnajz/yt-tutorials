@@ -1,0 +1,58 @@
+/* Importing google fonts */
+@import url("https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgb(21, 118, 208) 40%,
+    rgb(54, 207, 227) 100%
+  );
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 10%;
+}
+table {
+  background-color: #fff;
+  text-transform: capitalize;
+  text-align: center;
+  font-family: "New Amsterdam", sans-serif;
+  border: 2px solid #111;
+  font-size: 20px;
+}
+.blank {
+  background-color: rgb(7, 74, 150);
+}
+th {
+  background-color: thistle;
+}
+th,
+td {
+  margin: 50%;
+  padding: 10px 20px;
+}
+
+.days {
+  background-color: sandybrown;
+}
+.empty {
+  background-color: gray;
+}
+
+td {
+  border: 1px solid #111;
+}
+td:hover:not(.empty) {
+  color: chartreuse;
+  cursor: pointer;
+  background-color: skyblue;
+}
